@@ -10,6 +10,7 @@ import ErrorPage from './Pages/ErrorPage.jsx';
 import Home from './Pages/Home.jsx';
 import About from './Pages/About.jsx';
 import SignIn from './Pages/SignIn.jsx';
+import SignUp from './Pages/SignUp.jsx';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/signin",
         element:<SignIn/>
+      },
+      {
+        path: "/signup",
+        element:<SignUp/>
       }
     ] 
   },
