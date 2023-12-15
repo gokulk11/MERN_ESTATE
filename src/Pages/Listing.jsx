@@ -113,14 +113,14 @@ const Listing = () => {
               <li className="flex items-center gap-1 whitespace-nowrap">
                 <FaBed className="text-lg" />
                 {listing.bedrooms > 1
-                  ? `${listing.bedrooms} beds`
-                  : `${listing.bedrooms} bed`}
+                  ? `${listing.bedrooms} Beds`
+                  : `${listing.bedrooms} Bed`}
               </li>
               <li className="flex items-center gap-1 whitespace-nowrap">
                 <FaBath className="text-lg" />
                 {listing.bathrooms > 1
-                  ? `${listing.bathrooms} bathrooms`
-                  : `${listing.bathrooms} bathroom`}
+                  ? `${listing.bathrooms} Bathrooms`
+                  : `${listing.bathrooms} Bathroom`}
               </li>
               <li className="flex items-center gap-1 whitespace-nowrap">
                 <FaParking className="text-lg" />
